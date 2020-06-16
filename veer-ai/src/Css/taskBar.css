@@ -1,0 +1,17 @@
+.nav-link.active{
+    background-color: #F86B6C !important;
+    color: white !important;
+}
+
+.nav-link{
+    color: #F86B6C !important;
+}
+
+.nav-pills :focus{
+    border-color: #F86B6C !important;
+    outline-color: #F86B6C !important;
+}
+
+.nav-pills :hover{
+    background-color: rgba(248, 107, 108, 0.05) ;
+}
