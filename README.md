@@ -6,7 +6,7 @@ To see the project working, you need to complete the following steps.
 
 ### Install node_modules
 From the root folder<br/>
-`cd veer-ai && npm install`
+`cd veer-ai && yarn install`
 
 ### Run the server
 cd into veer-ai/src/ and run<br/>
@@ -16,7 +16,7 @@ When the server starts you should see the following in the terminal<br/>
 `Listening on port 4000`<br/>
 
 ### Run the client
-cd into veer-ai and run<br/>
+Open another terminal and cd into veer-ai and run<br/>
 `yarn start`<br/>
 
-This should bring you to the page(localhost:3000)<br/>
+This should bring you to the page(localhost:3000) :))<br/>

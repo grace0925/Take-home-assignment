@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <Header/>
       <Row className="justify-content-md-center mt-5 pt-5">
-        <h3 className='mb-4'>Take-home assignment for Veer ai</h3>
         <Col sm={10}>
           <TaskBar/>
         </Col>

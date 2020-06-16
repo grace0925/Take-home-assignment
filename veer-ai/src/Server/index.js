@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.post('/api/verifyEmail', (req, res) => {
     let email = req.body.email;
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    console.log(email);
     return res.send(re.test(String(email).toLowerCase()));
 })
 
