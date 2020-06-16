@@ -11,10 +11,12 @@ From the root folder<br/>
 ### Run the server
 cd into veer-ai/src/ and run<br/>
 `node server`<br/>
+
 When the server starts you should see the following in the terminal<br/>
 `Listening on port 4000`<br/>
 
 ### Run the client
 cd into veer-ai and run<br/>
 `yarn start`<br/>
+
 This should bring you to the page(localhost:3000)<br/>
